@@ -80,8 +80,8 @@ body {
 
 .nav-list-link:hover,
 .nav-list-link:focus,
-.header-address-link:hover,
-.header-address-link:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--accent-color);
 }
 /*========= HERO =========*/
@@ -160,17 +160,44 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-address-link:hover,
-.footer-address-link:focus,
-.footer-contact-link:hover,
-.footer-contact-link:focus {
-  color: var(--accent-color);
-}
-
 .footer-address-link {
-  /*color: var(--address-light-color);*/
+  /* color: var(--address-light-color); */
 }
 .footer-contact-link {
-  /*color: var(--footer-contact-color);*/
+  /* color: var(--footer-contact-color); */
 }
 /*========= END FOOTER =========*/
+
+/*========= PORTFOLIO =========*/
+.filter-button {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-project {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*========= END PORTFOLIO =========*/
