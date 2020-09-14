@@ -81,7 +81,11 @@ body {
 .nav-list-link:hover,
 .nav-list-link:focus,
 .header-contact-link:hover,
-.header-contact-link:focus {
+.header-contact-link:focus,
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus {
   color: var(--accent-color);
 }
 /*========= HERO =========*/
