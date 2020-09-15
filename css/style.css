@@ -3,12 +3,14 @@
   --logo-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --title-color: #212121;
+  --hero-color: #ffffff;
   --description-color: #757575;
   --first-logo-color: #2196f3;
   --second-logo-dark-color: #000000;
   --second-logo-light-color: #ffffff;
   --address-dark-color: #757575;
   --address-light-color: #ffffff;
+  --background-dark-color: #2f303a;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -29,6 +31,10 @@ body {
   font-style: normal;
 }
 
+.hero,
+.footer {
+  background: var(--background-dark-color);
+}
 /*========= COMPONENTS =========*/
 .logo {
   font-family: var(--logo-font);
@@ -43,7 +49,7 @@ body {
 }
 
 .logo-secondhalf-dark-theme {
-  /*color: var(--second-logo-light-color);*/
+  color: var(--second-logo-light-color);
 }
 
 .logo-secondhalf-light-theme {
@@ -96,7 +102,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: var(--title-light-color);*/
+  color: var(--hero-color);
 }
 
 .hero-button {
@@ -165,10 +171,10 @@ body {
 }
 
 .footer-address-link {
-  /* color: var(--address-light-color); */
+  color: var(--address-light-color);
 }
 .footer-contact-link {
-  /* color: var(--footer-contact-color); */
+  color: var(--footer-contact-color);
 }
 /*========= END FOOTER =========*/
 
